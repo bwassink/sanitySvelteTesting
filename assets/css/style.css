@@ -1,1 +1,7 @@
-a, a:hover {color: blueviolet;}
+/* Variables */
+:root {
+  --primary-color: blueviolet;
+  --secondary-color: yellow;
+}
+
+a, a:hover {color: var(--primary-color);}
