@@ -14,7 +14,7 @@
   <nav>
     <ul>
       <li><a data-selected={path === '/'} href="/">Home</a></li>
-      <li><a data-selected={path === '/'} href="/routes/second">Page 2</a></li>
+      <li><a href="/second">Page 2</a></li>
     </ul>
   </nav>
 </header>

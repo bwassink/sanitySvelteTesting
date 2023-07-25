@@ -17,16 +17,15 @@
   import PostsGrid from '$lib/PostsGrid.svelte'
 
   export let posts
-  export let authors
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Wassink.io</title>
 </svelte:head>
 
 <h1>Whats going on?</h1>
 
 <PostsGrid {posts} />
 
-
+<a href="/second">Page 2</a>
 
